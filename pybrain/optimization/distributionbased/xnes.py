@@ -5,7 +5,7 @@ __author__ = 'Tom Schaul, Sun Yi, Tobias Glasmachers'
 from pybrain.tools.rankingfunctions import HansenRanking
 from pybrain.optimization.distributionbased.distributionbased import DistributionBasedOptimizer
 from pybrain.auxiliary.importancemixing import importanceMixing
-from scipy.linalg import expm
+from scipy.linalg import _expm_frechet
 from scipy import dot, array, randn, eye, outer, exp, trace, floor, log, sqrt
 
 
